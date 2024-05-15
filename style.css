@@ -1,0 +1,111 @@
+/* Reset default margin and padding */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: white;
+}
+
+button {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 15px;
+}
+
+body {
+  background-image: url(Assets/stone.png);
+}
+
+.image-header {
+  height: 48px;
+  /* Set the height of the header */
+  background-image: url('Assets/dirt.png');
+  /* Path to your image */
+  background-repeat: repeat;
+  /* Repeat the image */
+  background-position: right top;
+  /* Align the image to the left */
+  background-size: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-space {
+  padding: 68px;
+}
+
+.about-mc {
+  display: flex;
+  justify-content: left;
+  padding-left: 50px;
+}
+
+.trailer {
+  padding-right: 25px;
+  border-color: transparent;
+}
+
+.about-mc-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.space {
+  padding: 10px;
+}
+
+.link {
+  color: rgb(229, 184, 80);
+}
+
+.steve {
+  height: max-content;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.sides-space {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.bigger-space {
+  padding: 40px;
+}
+
+.authencation {
+  display: flex;
+  justify-content: left;
+  padding-left: 50px;
+  flex-direction: column;
+}
+
+.header-link {
+  padding-top: 12px;
+}
+
+.center {
+  text-align: center;
+}
+
+.downloads {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
